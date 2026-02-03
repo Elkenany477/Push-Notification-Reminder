@@ -29,6 +29,10 @@ A simple **React Native (Expo)** app that allows users to:
 
 ## 📂 Project Structure
 
+
+https://github.com/user-attachments/assets/92fd217d-a082-4665-a169-6a38bd220d52
+
+
 src/
 │
 ├── components/
