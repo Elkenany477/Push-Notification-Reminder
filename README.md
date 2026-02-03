@@ -1,11 +1,61 @@
-# Sample Snack app
+# 📦 Reminder Notify Task (React Native + Expo)
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A simple **React Native (Expo)** app that allows users to:
+- Add tasks
+- Display tasks in a list
+- Send **push notifications** when a new task is added  
+(using **Expo Notifications**)
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+---
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## 🚀 Features
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- ✅ Add task with **title & body**
+- 📃 Display tasks using FlatList
+- 🔔 Send push notification on task creation
+- 📱 Works on **Android & iOS (physical device required)**
+- 🧩 Clean service-based notification logic
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+---
+
+## 🛠 Tech Stack
+
+- **React Native**
+- **Expo**
+- **Expo Notifications**
+- **JavaScript (Hooks)**
+
+---
+
+## 📂 Project Structure
+
+src/
+│
+├── components/
+│ └── ServiceNotification.js # Push notification service
+│
+├── screens/
+│ └── ReminderNotfyTask.js # Main screen
+│
+└── App.js
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/reminder-notify-task.git
+cd reminder-notify-task
+
+## 2️⃣ Install dependencies
+
+**npm install**
+
+
+## 3️⃣ Install Expo Notifications
+
+**expo install expo-notifications expo-device**
+
+## 4️⃣ Run the app
+
+**expo start**
+
