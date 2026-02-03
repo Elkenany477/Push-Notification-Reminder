@@ -6,6 +6,10 @@ A simple **React Native (Expo)** app that allows users to:
 - Send **push notifications** when a new task is added  
 (using **Expo Notifications**)
 
+
+https://github.com/user-attachments/assets/164dfcbc-45e8-4557-b1e2-ad44a858b68c
+
+
 ---
 
 ## 🚀 Features
@@ -28,10 +32,6 @@ A simple **React Native (Expo)** app that allows users to:
 ---
 
 ## 📂 Project Structure
-
-
-https://github.com/user-attachments/assets/92fd217d-a082-4665-a169-6a38bd220d52
-
 
 src/
 │
